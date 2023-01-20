@@ -1,10 +1,7 @@
-import readlineSync from "readline-sync"
-import fs, { readFileSync } from 'fs'
-import path from 'path'
+const path = require('path');
+const data = require(path.join(__dirname, 'model', 'data.json'));
 
-const data = JSON.parse(fs.readFileSync(path.join(__dirname, './data.json'), 'utf-8'))
-
-console.log(data)
+console.log(data);
 
 console.log(`
 -a Firy ny mega isan andro raha zaraina mitovy izay ambiny ao ?
