@@ -13,4 +13,5 @@ function daysBetween(date1, date2) {
     // Convert back to days and return
     return Math.round(difference_ms / one_day) + final_day;
 }
+module.exports = daysBetween;
 
