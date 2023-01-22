@@ -1,7 +1,7 @@
 const path = require('path')
 const data = require(path.join(__dirname,'..','model', 'data.json'));
 const daysBetween = require(path.join(__dirname, 'days_bet.js'))
-
+// ny data tokony ho lany manomboka androany 
 function daily_byrest (){
     let today = new Date();
     let date_fin = new Date(data.date_fin)
